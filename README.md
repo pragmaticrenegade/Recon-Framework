@@ -1,6 +1,12 @@
 🔍 What is the Recon Framework?
 Manually pivoting between modular recon utilities often results in disjointed logs and missed data correlation. This framework functions as an all-in-one execution engine that strings together passive OSINT, infrastructure auditing, and internal compliance checks into a single command-line interface.
 
+____                            _____                                             _ 
+ |  _ \ ___  ___ ___  _ __        |  ___| __ __ _ _ __ ___   _____      _____  _ __| | __
+ | |_) / _ \/ __/ _ \| '_ \       | |_ | '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+ |  _ <  __/ (_| (_) | | | |      |  _|| | | (_| | | | | | |  __/\\ V  V / (_) | |  |   < 
+ |_| \_\___|\___\___/|_| |_|      |_|  |_|  \__,_|_| |_| |_|\___/ \_/\_/ \___/|_|  |_|\_\
+
 ✨ Key Features Built-In:
 •	Passive Reconnaissance & OSINT: Rapid tracking utilizing target telemetry like WHOIS ownership, infrastructure mapping via Nslookup/Host, and passive subdomain aggregation using tools like Subfinder and Assetfinder.
 •	Web Asset Profiling: Instant technology stack fingerprinting via inline WhatWeb extraction alongside deep CURL/Wget inline response header analysis.
