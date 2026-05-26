@@ -25,13 +25,14 @@ Bash
 sudo apt update && sudo apt install -y whois dnsutils host whatweb curl wget nmap subfinder assetfinder && pip install fpdf
 
 # 2. Grant executable permissions to the script
-chmod +x recon_framework.py
+chmod +x recon.py
 
 # 3. Verify the installation by running a quick help check
-./recon_framework.py --help
+./recon.py (For ASCII BANNER)
+./recon.py -h --help (Without ASCII BANNER)
 📝 Breakdown of what this does:
 apt install -y ...: Automatically provisions every single CLI tool required by the script from your table in one go.
 
 chmod +x: Converts the raw Python script into a standalone executable binary format so you don't have to keep typing python3.
 
-./recon_framework.py --help: Directly executes the script using its internal env header (#!/usr/bin/env -S python3) to print the banner and options, confirming your environment is 100% ready.
+./recon.py -h --help or just ./recon.py: Directly executes the script using its internal env header (#!/usr/bin/env -S python3) to print the banner and options, confirming your environment is 100% ready.
