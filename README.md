@@ -30,6 +30,7 @@ chmod +x recon.py
 # 3. Verify the installation by running a quick help check
 ./recon.py (For ASCII BANNER)
 ./recon.py -h --help (Without ASCII BANNER)
+
 📝 Breakdown of what this does:
 apt install -y ...: Automatically provisions every single CLI tool required by the script from your table in one go.
 
