@@ -22,7 +22,7 @@ Run the following unified command block to install all dependencies, configure s
 
 Bash
 # 1. Install all system tools and Python dependencies
-sudo apt update && sudo apt install -y whois dnsutils host whatweb curl wget nmap subfinder assetfinder && pip install fpdf2
+sudo apt update && sudo apt install -y whois dnsutils host whatweb curl wget nmap subfinder assetfinder && pip install fpdf
 
 # 2. Grant executable permissions to the script
 chmod +x recon_framework.py
